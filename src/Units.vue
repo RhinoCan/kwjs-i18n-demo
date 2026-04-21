@@ -26,7 +26,6 @@ const unitExamples = computed(() => {
 <template>
   <main>
     <h2>{{ t("units.all") }}</h2>
-    <p>These are the available units:</p>
     <ul>
       <li v-for="item in unitExamples" :key="item.unit">{{ item.unit }} - {{ item.example }}</li>
     </ul>

@@ -63,7 +63,7 @@ const displayName = computed(
 <template>
   <header>
     <div class="header-content">
-      <h1>{{ t("app.i18n") }}</h1>
+      <h1>{{ t("app.title") }}</h1>
       <select v-model="locale" class="localeList">
         <option
           v-for="oneLocale in availableLocales"

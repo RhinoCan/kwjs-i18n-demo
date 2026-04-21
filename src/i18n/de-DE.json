@@ -1,6 +1,6 @@
 {
   "app": {
-    "i18n": "Internationalisierung/Lokalisierung (i18n/l10n)",
+    "title": "Internationalisierung/Lokalisierung (i18n/l10n)",
     "calendars": "Kalender",
     "collations": "Sortierregeln",
     "currencies": "Währungen",

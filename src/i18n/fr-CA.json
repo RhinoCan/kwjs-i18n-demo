@@ -1,6 +1,6 @@
 {
   "app": {
-    "i18n": "Internationalisation/Localisation (i18n/l10n)",
+    "title": "Internationalisation/Localisation (i18n/l10n)",
     "calendars": "Calendriers",
     "collations": "Classements",
     "currencies": "Devises",
