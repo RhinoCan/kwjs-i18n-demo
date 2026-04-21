@@ -1,0 +1,94 @@
+{
+  "app": {
+    "i18n": "Internationalisation/Localisation (i18n/l10n)",
+    "calendars": "Calendriers",
+    "collations": "Classements",
+    "currencies": "Devises",
+    "numberingSystems": "Systèmes de numération",
+    "timezones": "Fuseaux horaires",
+    "units": "Unités",
+    "dates": "Dates/Heures/Horodatages",
+    "lists": "Listes",
+    "numbers": "Nombres",
+    "plurals": "Pluriels",
+    "collators": "Comparateurs",
+    "relativeTime": "Temps relatif",
+    "combinations": "Combinaisons"
+  },
+  "calendars": {
+    "all": "Tous les calendriers pris en charge",
+    "relevant": "Calendriers généralement utilisés dans la langue actuelle"
+  },
+  "collations": {
+    "all": "Tous les classements pris en charge"
+  },
+  "currencies": {
+    "all": "Toutes les devises prises en charge"
+  },
+  "numberingSystems": {
+    "all": "Tous les systèmes de numération pris en charge"
+  },
+  "timezones": {
+    "all": "Tous les fuseaux horaires pris en charge"
+  },
+  "units": {
+    "all": "Toutes les unités prises en charge"
+  },
+  "dates": {
+    "title": "Formats de date/heure/horodatage"
+  },
+  "lists": {
+    "title": "Listes",
+    "beatlesMembers": ["John", "Paul", "George", "Ringo"],
+    "beatles": "Les Beatles : { members }.",
+    "statusItems": ["mort", "mort de fatigue", "fin soûl"],
+    "status": "Il est soit { status }."
+  },
+  "numbers": {
+    "title": "Formats de nombre/devise",
+    "number": "Nombre :",
+    "percentage": "Pourcentage :",
+    "compact": "Nombre compact :",
+    "scientific": "Notation scientifique :",
+    "negative": "Nombre négatif :",
+    "explicitSign": "Signe explicite :",
+    "currencyAmount": "Montant en devise :"
+  },
+  "plurals": {
+    "title": "Pluriels",
+    "rules": "Règles de pluriel",
+    "rulesRussian": "Règles de pluriel - Russe",
+    "rulesArabic": "Règles de pluriel - Arabe",
+    "emails": "Vous n'avez aucun courriel dans votre boîte de réception. | Vous avez {count} courriel dans votre boîte de réception. | Vous avez {count} courriels dans votre boîte de réception.",
+    "babushkas": "[Il n'y a pas de babouchkas à votre fête.]",
+    "limousines": "[Il n'y a pas de limousines dans votre garage.]"
+  },
+  "collators": {
+    "title": "Classements",
+    "standard": "Classement standard (allemand seulement)",
+    "phonebk": "Classement annuaire téléphonique (allemand seulement)"
+  },
+  "relativeTime": {
+    "title": "Formats de temps relatif",
+    "previous": "Événements passés",
+    "future": "Événements futurs",
+    "alwaysFormatter": "Avec l'option 'always' :",
+    "alwaysLongFormatter": "Avec les options 'always' et 'long' :",
+    "alwaysShortFormatter": "Avec les options 'always' et 'short' :",
+    "autoFormatter": "Avec l'option 'auto' :"
+  },
+  "combos": {
+    "duration": "Durée temporelle",
+    "durationQuestion": "Question : Combien de temps s'est écoulé depuis que la première mission habitée a aluni?",
+    "durationAnswerShort": "Réponse : Le premier alunissage habité a eu lieu le { firstMoonLanding }. Il est maintenant { now }. Par conséquent, { duration } s'est écoulé depuis le premier alunissage habité.",
+    "durationAnswer": "Réponse : Le premier alunissage habité a eu lieu le { firstMoonLanding }. Il est maintenant { now }. Par conséquent, { years } ans, { months } mois, { days } jours et { hours } heures se sont écoulés depuis le premier alunissage habité.",
+    "durationAnswer2": "Réponse : Le premier alunissage habité a eu lieu le { firstMoonLanding }. Il est maintenant { now }. Par conséquent, { fullDuration } se sont écoulés depuis le premier alunissage habité.",
+    "timeUnits": {
+      "year": "{count} an | {count} ans",
+      "month": "{count} mois | {count} mois",
+      "day": "{count} jour | {count} jours",
+      "hour": "{count} heure | {count} heures"
+    },
+    "fullDuration": "{ years }, { months }, { days }, { hours }"
+  }
+}

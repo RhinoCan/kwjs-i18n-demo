@@ -1,0 +1,95 @@
+{
+  "app": {
+    "i18n": "Internationalization/Localization (i18n/l10n)",
+    "calendars": "Calendars",
+    "collations": "Collations",
+    "currencies": "Currencies",
+    "numberingSystems": "Numbering Systems",
+    "timezones": "Timezones",
+    "units": "Units",
+    "dates": "Dates/Times/Timestamps",
+    "lists": "Lists",
+    "numbers": "Numbers",
+    "plurals": "Plurals",
+    "collators": "Collators",
+    "relativeTime": "Relative Time",
+    "combinations": "Combinations"
+  },
+  "calendars": {
+    "all": "All supported calendars",
+    "relevant": "Calendars typically used in current locale"
+  },
+  "collations": {
+    "all": "All supported collations"
+  },
+  "currencies": {
+    "all": "All supported currencies"
+  },
+  "numberingSystems": {
+    "all": "All supported numbering systems"
+  },
+  "timezones": {
+    "all": "All supported timezones"
+  },
+  "units": {
+    "all": "All supported units"
+  },
+  "dates": {
+    "title": "Date/Time/Timestamp formats"
+  },
+  "lists": {
+    "title": "Lists",
+    "beatlesMembers": ["John", "Paul", "George", "Ringo"],
+    "beatles": "The Beatles: { members }.",
+    "statusItems": ["dead", "dead tired", "dead drunk"],
+    "status": "He is either { status }."
+  },
+  "numbers": {
+    "title": "Number/Currency Formats",
+    "number": "Number:",
+    "percentage": "Percentage:",
+    "compact": "Compact number:",
+    "scientific": "Scientific notation:",
+    "negative": "Negative number:",
+    "explicitSign": "Explicit sign:",
+    "currencyAmount": "Currency Amount:"
+  },
+  "plurals": {
+    "title": "Plurals",
+    "rules": "Plural Rules",
+    "rulesRussian": "Plural Rules - Russian",
+    "rulesArabic": "Plural Rules - Arabic",
+    "emails": "There are no emails in your inbox. | There is {count} email in your inbox. | There are {count} emails in your inbox.",
+    "babushkas": "[There are no babushkas at your party.]",
+    "limousines": "[There are no limousines in your garage.]"
+  },
+  "collators": {
+    "title": "Collations",
+    "standard": "Standard Collation (German only)",
+    "phonebk": "Phonebk Collation (German only)"
+  },
+  "relativeTime": {
+    "title": "Relative Time formats",
+    "previous": "Previous events",
+    "future": "Future events",
+    "alwaysFormatter": "Using formatter with 'always' option:",
+    "alwaysLongFormatter": "Using formatter with 'always' and 'long' options:",
+    "alwaysShortFormatter": "Using formatter with 'always' and 'short' options:",
+    "autoFormatter": "Using formatter with 'auto' option:"
+  },
+  "combos": {
+    "title": "Combinations",
+    "duration": "Temporal Duration",
+    "durationQuestion": "Question: How long has it been since the first manned mission landed on the Moon?",
+    "durationAnswerShort": "Answer: The first manned Moon landing was { firstMoonLanding }. It is now { now }. Therefore, it has been { duration } since the first manned Moon landing.",
+    "durationAnswer": "Answer: The first manned Moon landing was { firstMoonLanding }. It is now { now }. Therefore, it has been { years } years, { months } months, { days } days, and { hours } hours since the first manned Moon landing.",
+    "durationAnswer2": "Answer: The first manned Moon landing was { firstMoonLanding }. It is now { now }. Therefore, it has been { fullDuration } since the first manned Moon landing.",
+    "timeUnits": {
+      "year": "{ count } year | { count } years",
+      "month": "{ count } month | { count } months",
+      "day": "{ count } day | { count } days",
+      "hour": "{ count } hour | { count } hours"
+    },
+    "fullDuration": "{ years }, { months }, { days }, { hours }"
+  }
+}

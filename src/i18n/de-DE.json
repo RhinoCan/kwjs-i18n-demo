@@ -1,0 +1,94 @@
+{
+  "app": {
+    "i18n": "Internationalisierung/Lokalisierung (i18n/l10n)",
+    "calendars": "Kalender",
+    "collations": "Sortierregeln",
+    "currencies": "Währungen",
+    "numberingSystems": "Zahlensysteme",
+    "timezones": "Zeitzonen",
+    "units": "Einheiten",
+    "dates": "Datums-/Uhrzeit-/Zeitstempelformate",
+    "lists": "Listen",
+    "numbers": "Zahlen",
+    "plurals": "Pluralformen",
+    "collators": "Vergleicher",
+    "relativeTime": "Relative Zeit",
+    "combinations": "Kombinationen"
+  },
+  "calendars": {
+    "all": "Alle unterstützten Kalender",
+    "relevant": "Kalender, die in der aktuellen Sprache üblicherweise verwendet werden"
+  },
+  "collations": {
+    "all": "Alle unterstützten Sortierregeln"
+  },
+  "currencies": {
+    "all": "Alle unterstützten Währungen"
+  },
+  "numberingSystems": {
+    "all": "Alle unterstützten Zahlensysteme"
+  },
+  "timezones": {
+    "all": "Alle unterstützten Zeitzonen"
+  },
+  "units": {
+    "all": "Alle unterstützten Einheiten"
+  },
+  "dates": {
+    "title": "Datums-/Uhrzeit-/Zeitstempelformate"
+  },
+  "lists": {
+    "title": "Listen",
+    "beatlesMembers": ["John", "Paul", "George", "Ringo"],
+    "beatles": "Die Beatles: { members }.",
+    "statusItems": ["tot", "todmüde", "sturzbetrunken"],
+    "status": "Er ist { status }."
+  },
+  "numbers": {
+    "title": "Zahlen-/Währungsformate",
+    "number": "Zahl:",
+    "percentage": "Prozentsatz:",
+    "compact": "Kompakte Zahl:",
+    "scientific": "Wissenschaftliche Notation:",
+    "negative": "Negative Zahl:",
+    "explicitSign": "Explizites Vorzeichen:",
+    "currencyAmount": "Währungsbetrag:"
+  },
+  "plurals": {
+    "title": "Pluralformen",
+    "rules": "Pluralregeln",
+    "rulesRussian": "Pluralregeln - Russisch",
+    "rulesArabic": "Pluralregeln - Arabisch",
+    "emails": "Sie haben keine E-Mails in Ihrem Posteingang. | Sie haben {count} E-Mail in Ihrem Posteingang. | Sie haben {count} E-Mails in Ihrem Posteingang.",
+    "babushkas": "[Es gibt keine Babushkas auf Ihrer Party.]",
+    "limousines": "[Es gibt keine Limousinen in Ihrer Garage.]"
+  },
+  "collators": {
+    "title": "Sortierregeln",
+    "standard": "Standard-Sortierung (nur Deutsch)",
+    "phonebk": "Telefonbuch-Sortierung (nur Deutsh)"
+  },
+  "relativeTime": {
+    "title": "Relative Zeitformate",
+    "previous": "Vergangene Ereignisse",
+    "future": "Zukünftige Ereignisse",
+    "alwaysFormatter": "Mit der Option 'always':",
+    "alwaysShortFormatter": "Mit den Optionen 'always' und 'short':",
+    "alwaysLongFormatter": "Mit den Optionen 'always' und 'long':",
+    "autoFormatter": "Mit der Option 'auto':"
+  },
+  "combos": {
+    "duration": "Zeitliche Dauer",
+    "durationQuestion": "Frage: Wie lange ist es her, seit die erste bemannte Mission auf dem Mond gelandet ist?",
+    "durationAnswerShort": "Antwort: Die erste bemannte Mondlandung fand am { firstMoonLanding } statt. Es ist jetzt { now }. Daher sind { duration } seit der ersten bemannten Mondlandung vergangen.",
+    "durationAnswer": "Antwort: Die erste bemannte Mondlandung fand am { firstMoonLanding } statt. Es ist jetzt { now }. Daher sind { years } Jahre, { months } Monate, { days } Tage und { hours } Stunden seit der ersten bemannten Mondlandung vergangen.",
+    "durationAnswer2": "Antwort: Die erste bemannte Mondlandung fand am { firstMoonLanding } statt. Es ist jetzt { now }. Daher sind { fullDuration } seit der ersten bemannten Mondlandung vergangen.",
+    "timeUnits": {
+      "year": "{count} Jahr | {count} Jahre",
+      "month": "{count} Monat | {count} Monate",
+      "day": "{count} Tag | {count} Tage",
+      "hour": "{count} Stunde | {count} Stunden"
+    },
+    "fullDuration": "{ years }, { months }, { days }, { hours }"
+  }
+}
