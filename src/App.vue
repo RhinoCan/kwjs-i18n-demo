@@ -1,5 +1,7 @@
 <script setup>
 import { ref, computed } from "vue";
+import Translations from "./Translations.vue";
+import Interpolation from "./Interpolation.vue";
 import Calendars from "./Calendars.vue";
 import Collations from "./Collations.vue";
 import Currencies from "./Currencies.vue";
@@ -17,8 +19,10 @@ import Combinations from "./Combinations.vue";
 import { useI18n } from "vue-i18n";
 const { t, locale, availableLocales } = useI18n();
 
-const activeTab = ref("Calendars");
+const activeTab = ref("Translations");
 const tabs = {
+  Translations,
+  Interpolation,
   Calendars,
   Collations,
   Currencies,
@@ -33,6 +37,10 @@ const tabs = {
   RelativeTime,
   Combinations,
 };
+const greenTabs = [
+  { name: "Translations", label: "Simple Translations", key: "app.translations"},
+  { name: "Interpolation", label: "Translations with Interpolation", key: "app.interpolation" },
+];
 const whiteTabs = [
   { name: "Calendars", label: "Calendars", key: "app.calendars" },
   { name: "Collations", label: "Collations", key: "app.collations" },
@@ -62,6 +70,17 @@ const displayName = computed(
 
 <template>
   <header>
+    <!-- IMPORTANT NOTE: In a normal production app, no locale chooser would be necessary: the app would typically
+     interrogate navigator.language, which is a Javascript global.[The app might also look at navigator.languages
+     which provides an array of the user's preferred locales, in order, so that a fallback locale could be chosen.]
+     Alternatively, the app could obtain the current locale from the Intl API.
+     Exceptions:
+     a) The app serves a market where the browser locale may not reflect the user's preferences e.g. a French-speaking
+        user who shares a computer with an English-speaker
+     b) The app has a user account system where locale preference is stored as a profile setting
+     c) The content itself is language-specific and the user might want to browse in a different language e.g. Wikipedia
+     d) Enterprise apps where the "shop language" may differ from the user's OS locale
+      -->
     <div class="header-content">
       <h1>{{ t("app.title") }}</h1>
       <select v-model="locale" class="localeList">
@@ -77,6 +96,17 @@ const displayName = computed(
   </header>
 
   <nav>
+    <div>
+      <button
+        v-for="tab in greenTabs"
+        :key="tab.name"
+        @click="activeTab = tab.name"
+        class="green"
+        :class="{ active: activeTab === tab.name }"
+      >
+        {{ t(tab.key) }}
+      </button>
+    </div>
     <div>
       <button
         v-for="tab in whiteTabs"
@@ -102,6 +132,7 @@ const displayName = computed(
 
     <component :is="tabs[activeTab]" />
   </nav>
+
 </template>
 
 <style scoped>
@@ -111,8 +142,7 @@ header {
   width: 100%;
 }
 .header-content {
-  /* display: none; */
-  display: flex;
+  display: flex; /* none/flex */
   justify-content: space-between;
   align-items: center;
 }
@@ -131,6 +161,9 @@ button.active {
 }
 button {
   font-size: 1.2rem;
+}
+.green {
+  background-color: greenyellow;
 }
 .white {
   background-color: white;

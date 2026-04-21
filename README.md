@@ -142,6 +142,22 @@ framework (for managing translated strings). Popular choices by framework:
 - Plural handling via pipe-separated alternatives or ICU message format
 - Lazy loading of translation files for better performance
 
+
+---
+
+### Detecting the user's locale in production
+
+Most production apps do not offer a locale chooser — instead they detect the user's preferred locale from the browser. `navigator.language` gives the single preferred language (e.g. `"en-CA"`), while `navigator.languages` gives the full ranked list (e.g. `["en-CA", "en"]`). Both are populated automatically from the user's browser and OS language settings without any explicit action on the user's part. In production, `navigator.languages` is the more useful of the two — walk down the list and use the first locale your app supports, falling back to a sensible default:
+
+```js
+const supportedLocales = ['en-CA', 'fr-CA', 'de-DE'];
+const defaultLocale = 'en-CA';
+
+const preferred = navigator.languages.find(lang =>
+  supportedLocales.includes(lang)
+) ?? defaultLocale;
+```
+
 ---
 
 ## Gotchas

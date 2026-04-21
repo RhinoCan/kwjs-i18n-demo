@@ -1,6 +1,8 @@
 {
   "app": {
     "title": "Internationalisierung/Lokalisierung (i18n/l10n)",
+    "translations": "Einfache Übersetzungen",
+    "interpolation": "Übersetzungen mit Interpolation",
     "calendars": "Kalender",
     "collations": "Sortierregeln",
     "currencies": "Währungen",

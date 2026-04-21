@@ -1,6 +1,8 @@
 {
   "app": {
     "title": "Internationalization/Localization (i18n/l10n)",
+    "translations": "Simple Translations",
+    "interpolation": "Translations with Interpolation",
     "calendars": "Calendars",
     "collations": "Collations",
     "currencies": "Currencies",
