@@ -142,6 +142,9 @@ framework (for managing translated strings). Popular choices by framework:
 - Plural handling via pipe-separated alternatives or ICU message format
 - Lazy loading of translation files for better performance
 
+### i18n-ally
+
+A valuable tool to add to your i18n toolkit is i18n-ally. It simplifies editing and auditing of translation files.
 
 ---
 

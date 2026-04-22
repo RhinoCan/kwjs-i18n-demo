@@ -28,24 +28,24 @@ const elapsed = computed(() => now.since(firstMoonLanding, {
 }));
 
 // Create a formatter to make the dates more human-readable.
-const moonFormatter = computed(() => new Intl.DateTimeFormat(locale.value, {
-  year: "numeric",
-  month: "long",
-  day: "numeric",
-  hour: "numeric",
-  minute: "numeric",
-  timeZoneName: "short",
-  timeZone: "America/Toronto",
-}));
+// const moonFormatter = computed(() => new Intl.DateTimeFormat(locale.value, {
+//   year: "numeric",
+//   month: "long",
+//   day: "numeric",
+//   hour: "numeric",
+//   minute: "numeric",
+//   timeZoneName: "short",
+//   timeZone: "America/Toronto",
+// }));
 
 // Friendlier moon landing date.
-const firstMoonLandingFriendly = moonFormatter.value.format(
-  firstMoonLanding.toInstant().epochMilliseconds,
-);
+// const firstMoonLandingFriendly = moonFormatter.value.format(
+//   firstMoonLanding.toInstant().epochMilliseconds,
+// );
 //console.log("firstMoonLandingFriendly:", firstMoonLandingFriendly);
 
 // Friendlier present moment.
-const nowFriendly = moonFormatter.value.format(now.toInstant().epochMilliseconds);
+// const nowFriendly = moonFormatter.value.format(now.toInstant().epochMilliseconds);
 //console.log("nowFriendly:", nowFriendly);
 
 // Prepare the duration string which expresses the duration in ordinary language.
@@ -60,23 +60,23 @@ const nowFriendly = moonFormatter.value.format(now.toInstant().epochMilliseconds
 //     type: "conjunction",
 //   }).format(parts);
 // });
-const fullDuration = computed(() => {
-  const units = [
-    ["year", elapsed.value.years],
-    ["month", elapsed.value.months],
-    ["day", elapsed.value.days],
-    ["hour", elapsed.value.hours],
-  ];
+// const fullDuration = computed(() => {
+//   const units = [
+//     ["year", elapsed.value.years],
+//     ["month", elapsed.value.months],
+//     ["day", elapsed.value.days],
+//     ["hour", elapsed.value.hours],
+//   ];
 
-  const parts = units
-    .filter(([, value]) => value)
-    .map(([unit, value]) => t(`combos.timeUnits.${unit}`, value));
+//   const parts = units
+//     .filter(([, value]) => value)
+//     .map(([unit, value]) => t(`combos.timeUnits.${unit}`, value));
 
-  return new Intl.ListFormat(locale.value, {
-    style: "long",
-    type: "conjunction",
-  }).format(parts);
-});
+//   return new Intl.ListFormat(locale.value, {
+//     style: "long",
+//     type: "conjunction",
+//   }).format(parts);
+// });
 
 </script>
 
@@ -96,7 +96,7 @@ const fullDuration = computed(() => {
       }}
     </p>
 
-    <p>
+    <!-- <p>
       {{
         t("combos.durationAnswer", {
           firstMoonLanding: firstMoonLanding,
@@ -107,8 +107,8 @@ const fullDuration = computed(() => {
           hours: elapsed.hours,
         })
       }}
-    </p>
-    <p>
+    </p> -->
+    <!-- <p>
       {{
         t("combos.durationAnswer", {
           firstMoonLanding: firstMoonLandingFriendly,
@@ -119,8 +119,8 @@ const fullDuration = computed(() => {
           hours: elapsed.hours,
         })
       }}
-    </p>
-    <p>
+    </p> -->
+    <!-- <p>
       {{
         t("combos.durationAnswer2", {
           firstMoonLanding: firstMoonLandingFriendly,
@@ -128,7 +128,7 @@ const fullDuration = computed(() => {
           fullDuration: fullDuration,
         })
       }}
-    </p>
+    </p> -->
   </main>
 </template>
 
