@@ -1,0 +1,105 @@
+{
+  "app": {
+    "title": "国际化/本地化 (i18n/l10n)",
+    "translations": "简单翻译",
+    "interpolation": "带插值的翻译",
+    "calendars": "日历",
+    "collations": "排序规则",
+    "currencies": "货币",
+    "numberingSystems": "编号系统",
+    "timezones": "时区",
+    "units": "单位",
+    "dates": "日期/时间/时间戳",
+    "lists": "列表",
+    "numbers": "数字",
+    "plurals": "复数",
+    "collators": "排序器",
+    "relativeTime": "相对时间",
+    "combinations": "组合"
+  },
+  "calendars": {
+    "all": "所有支持的日历",
+    "relevant": "当前语言环境中常用的日历"
+  },
+  "collations": {
+    "all": "所有支持的排序规则"
+  },
+  "currencies": {
+    "all": "所有支持的货币"
+  },
+  "numberingSystems": {
+    "all": "所有支持的编号系统"
+  },
+  "timezones": {
+    "all": "所有支持的时区"
+  },
+  "units": {
+    "all": "所有支持的单位"
+  },
+  "dates": {
+    "title": "日期/时间/时间戳格式"
+  },
+  "lists": {
+    "title": "列表",
+    "beatlesMembers": ["John", "Paul", "George", "Ringo"],
+    "beatles": "披头士乐队：{ members }。",
+    "statusItems": ["死了", "累得半死", "醉得烂醉"],
+    "status": "他不是{ status }。"
+  },
+  "numbers": {
+    "title": "数字/货币格式",
+    "number": "数字：",
+    "percentage": "百分比：",
+    "compact": "紧凑数字：",
+    "scientific": "科学计数法：",
+    "negative": "负数：",
+    "explicitSign": "显式符号：",
+    "currencyAmount": "货币金额："
+  },
+  "plurals": {
+    "title": "复数",
+    "rules": "复数规则",
+    "rulesRussian": "复数规则 - 俄语",
+    "rulesArabic": "复数规则 - 阿拉伯语",
+    "emails": "您的收件箱中没有邮件。 | 您的收件箱中有 {count} 封邮件。"
+  },
+  "collators": {
+    "title": "排序规则",
+    "standard": "标准排序规则（仅限德语）",
+    "phonebk": "电话簿排序规则（仅限德语）"
+  },
+  "relativeTime": {
+    "title": "相对时间格式",
+    "previous": "过去的事件",
+    "future": "未来的事件",
+    "alwaysFormatter": "使用带有 'always' 选项的格式化器：",
+    "alwaysLongFormatter": "使用带有 'always' 和 'long' 选项的格式化器：",
+    "alwaysShortFormatter": "使用带有 'always' 和 'short' 选项的格式化器：",
+    "autoFormatter": "使用带有 'auto' 选项的格式化器："
+  },
+  "combos": {
+    "title": "组合",
+    "duration": "时间段",
+    "durationQuestion": "问题：自第一次载人任务登陆月球以来已经过了多长时间？",
+    "durationAnswerShort": "回答：第一次载人登月是在 { firstMoonLanding }。现在是 { now }。因此，自第一次载人登月以来已经过了 { duration }。",
+    "durationAnswer": "回答：第一次载人登月是在 { firstMoonLanding }。现在是 { now }。因此，自第一次载人登月以来已经过了 { years } 年、{ months } 个月、{ days } 天和 { hours } 小时。",
+    "durationAnswer2": "回答：第一次载人登月是在 { firstMoonLanding }。现在是 { now }。因此，自第一次载人登月以来已经过了 { fullDuration }。",
+    "timeUnits": {
+      "year": "{ count } 年",
+      "month": "{ count } 个月",
+      "day": "{ count } 天",
+      "hour": "{ count } 小时"
+    },
+    "fullDuration": "{ years }、{ months }、{ days }、{ hours }"
+  },
+  "translations": {
+    "title": "简单翻译",
+    "goodMorning": "早上好！",
+    "howAreYou": "你好吗？"
+  },
+  "interpolation": {
+    "title": "带插值的翻译",
+    "preferredLanguage": "您的首选语言是 { language }，您的备用语言是 { fallback }。",
+    "screenSize": "您的屏幕尺寸是 { width } × { height }。"
+  }
+}

@@ -61,9 +61,7 @@
     "rules": "Pluralregeln",
     "rulesRussian": "Pluralregeln - Russisch",
     "rulesArabic": "Pluralregeln - Arabisch",
-    "emails": "Sie haben keine E-Mails in Ihrem Posteingang. | Sie haben {count} E-Mail in Ihrem Posteingang. | Sie haben {count} E-Mails in Ihrem Posteingang.",
-    "babushkas": "[Es gibt keine Babushkas auf Ihrer Party.]",
-    "limousines": "[Es gibt keine Limousinen in Ihrer Garage.]"
+    "emails": "Sie haben keine E-Mails in Ihrem Posteingang. | Sie haben {count} E-Mail in Ihrem Posteingang. | Sie haben {count} E-Mails in Ihrem Posteingang."
   },
   "collators": {
     "title": "Sortierregeln",
@@ -80,6 +78,7 @@
     "autoFormatter": "Mit der Option 'auto':"
   },
   "combos": {
+    "title": "Kombinationen",
     "duration": "Zeitliche Dauer",
     "durationQuestion": "Frage: Wie lange ist es her, seit die erste bemannte Mission auf dem Mond gelandet ist?",
     "durationAnswerShort": "Antwort: Die erste bemannte Mondlandung fand am { firstMoonLanding } statt. Es ist jetzt { now }. Daher sind { duration } seit der ersten bemannten Mondlandung vergangen.",
@@ -92,5 +91,15 @@
       "hour": "{count} Stunde | {count} Stunden"
     },
     "fullDuration": "{ years }, { months }, { days }, { hours }"
+  },
+  "translations": {
+    "title": "Einfache Übersetzungen",
+    "goodMorning": "Guten tag!",
+    "howAreYou": "Wie geht's?"
+  },
+  "interpolation": {
+    "title": "Übersetzungen mit Interpolation",
+    "preferredLanguage": "German: Die bevorzugte Sprache Ihres Browsers ist {language} und Ihr erster Fallback ist {fallback}.",
+    "screenSize": "Ihr Bildschirm ist {width} × {height} Pixel groß."
   }
 }

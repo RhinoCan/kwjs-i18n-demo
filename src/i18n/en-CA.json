@@ -61,9 +61,7 @@
     "rules": "Plural Rules",
     "rulesRussian": "Plural Rules - Russian",
     "rulesArabic": "Plural Rules - Arabic",
-    "emails": "There are no emails in your inbox. | There is {count} email in your inbox. | There are {count} emails in your inbox.",
-    "babushkas": "[There are no babushkas at your party.]",
-    "limousines": "[There are no limousines in your garage.]"
+    "emails": "There are no emails in your inbox. | There is {count} email in your inbox. | There are {count} emails in your inbox."
   },
   "collators": {
     "title": "Collations",
@@ -93,5 +91,15 @@
       "hour": "{ count } hour | { count } hours"
     },
     "fullDuration": "{ years }, { months }, { days }, { hours }"
+  },
+  "translations": {
+    "title": "Simple Translations",
+    "goodMorning": "Good morning!",
+    "howAreYou": "How are you?"
+  },
+  "interpolation": {
+    "title": "Translations with interpolation",
+    "preferredLanguage": "Your  preferred language is { language } and your fallback is { fallback }.",
+    "screenSize": "Your screen size is { width } × { height }."
   }
 }

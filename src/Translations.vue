@@ -1,13 +1,13 @@
-<script setup></script>
+<script setup>
+import { useI18n } from "vue-i18n";
+
+const { t } = useI18n();
+</script>
 
 <template>
   <main>
-    <h2>Simple translations</h2>
-    <p>Good morning!</p>
-    <!-- French: Bonjour! -->
-    <!-- German: Guten morgen! -->
-    <p>How are you?</p>
-    <!-- French: Comment allez-vous? -->
-    <!-- German: Vie geht es Ihnen? -->
+    <h2>{{ t("translations.title") }}</h2>
+    <p>{{ t("translations.goodMorning") }}</p>
+    <p>{{ t("translations.howAreYou") }}</p>
   </main>
 </template>

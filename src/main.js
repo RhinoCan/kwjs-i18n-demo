@@ -5,6 +5,7 @@ import { createI18n } from 'vue-i18n'
 import deDE from './i18n/de-DE'
 import enCA from './i18n/en-CA'
 import frCA from './i18n/fr-CA'
+import zhCN from './i18n/zh-CN'
 
 const i18n = createI18n({
   legacy: false,
@@ -13,7 +14,8 @@ const i18n = createI18n({
   messages: {
     'en-CA': enCA,
     'fr-CA': frCA,
-    'de-DE': deDE
+    'de-DE': deDE,
+    'zh-CN': zhCN
   }
 })
 const app = createApp(App)

@@ -9,12 +9,6 @@ const count = ref(1);
 const emailMessage = computed(() =>
   t("plurals.emails", { count: count.value }, count.value),
 );
-const babushkaMessage = computed(() =>
-  t("plurals.babushkas", { count: count.value }, count.value, count.value, count.value),
-);
-const limousineMessage = computed(() =>
-  t("plurals.limousines", { count: count.value }, count.value, count.value, count.value, count.value, count.value)
-);
 
 /* Plural rules */
 const rules = new Intl.PluralRules(locale.value).resolvedOptions().pluralCategories;

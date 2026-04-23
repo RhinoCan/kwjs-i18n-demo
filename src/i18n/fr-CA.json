@@ -61,9 +61,7 @@
     "rules": "Règles de pluriel",
     "rulesRussian": "Règles de pluriel - Russe",
     "rulesArabic": "Règles de pluriel - Arabe",
-    "emails": "Vous n'avez aucun courriel dans votre boîte de réception. | Vous avez {count} courriel dans votre boîte de réception. | Vous avez {count} courriels dans votre boîte de réception.",
-    "babushkas": "[Il n'y a pas de babouchkas à votre fête.]",
-    "limousines": "[Il n'y a pas de limousines dans votre garage.]"
+    "emails": "Vous n'avez aucun courriel dans votre boîte de réception. | Vous avez {count} courriel dans votre boîte de réception. | Vous avez {count} courriels dans votre boîte de réception."
   },
   "collators": {
     "title": "Classements",
@@ -80,6 +78,7 @@
     "autoFormatter": "Avec l'option 'auto' :"
   },
   "combos": {
+    "title": "Combinaisons",
     "duration": "Durée temporelle",
     "durationQuestion": "Question : Combien de temps s'est écoulé depuis que la première mission habitée a aluni?",
     "durationAnswerShort": "Réponse : Le premier alunissage habité a eu lieu le { firstMoonLanding }. Il est maintenant { now }. Par conséquent, { duration } s'est écoulé depuis le premier alunissage habité.",
@@ -92,5 +91,16 @@
       "hour": "{count} heure | {count} heures"
     },
     "fullDuration": "{ years }, { months }, { days }, { hours }"
+  },
+  "translations" : {
+    "title": "Traductions simple",
+    "goodMorning": "Bonjour",
+    "howAreYou": "Comment allez-vous?"
+  },
+  "interpolation": {
+    "title": "Traductions avec interpolation",
+    "preferredLanguage": "La langue préférée de votre navigateur est {language} et votre premier recours est {fallback}.",
+    "screenSize": "Votre écran est de {width} × {height} pixels."
+
   }
 }
